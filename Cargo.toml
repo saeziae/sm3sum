@@ -1,0 +1,10 @@
+[package]
+name = "sm3sum"
+version = "0.1.0"
+
+[dependencies]
+sm3 = "0.4.1"
+
+[[bin]]
+name = "sm3sum"
+path = "sm3sum.rs"
